@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+)d$ir&1e3it_%3%!6(enjpo3@7#s98v3%!6#b^ql$#t+-%@@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.24.239.223','localhost','127.0.0.1','.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['52.24.239.223','localhost','127.0.0.1']
 
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'eckard_db', 
         'USER': 'postgres',
         'PASSWORD': 'Moodle_0103',
-        'HOST': '52.24.239.223', 
+        'HOST': '127.0.0.1', 
         'PORT': '5432',
     }
 }
@@ -128,5 +128,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
